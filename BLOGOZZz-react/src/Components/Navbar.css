@@ -1,0 +1,19 @@
+.Navbar {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.Navbar-links {
+  display: flex;
+}
+.Navbar-links li {
+  margin-left: 1rem;
+  font-weight: bolder;
+}
+
+.Navbar a:hover {
+  color: aquamarine;
+}

@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #062b06; */
+  background-color: #341f97;
+  color: antiquewhite;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a,
+button {
+  cursor: pointer;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul li {
+  list-style: none;
+}
+.blog-details {
+  background: rgb(5, 65, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-body {
+  width: 40rem;
+  max-width: 100%;
+  text-align: center;
+}
+form {
+  width: 30rem;
+  margin: 0 auto;
+}
+.form-control {
+  padding: 12px 0;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.form-control input,
+textarea {
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+
+.form-control textarea {
+  height: 10rem;
+  width: 100%;
+}
+
+form button,
+.btn-delete {
+  margin: 1rem 0;
+  padding: 6px 12px;
+  font-size: 1.1em;
+}
